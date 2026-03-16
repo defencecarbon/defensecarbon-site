@@ -4,14 +4,22 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>의뢰절차 | 디펜스카본</title>
+  <meta name="description" content="디펜스카본 시험 의뢰 절차 안내">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
   <header class="header">
     <div class="container nav">
-      <h1 class="logo"><a href="index.html">디펜스카본</a></h1>
-      <nav>
+      <a href="index.html" class="brand">
+        <img src="images/logo.png" alt="디펜스카본 로고" class="brand-logo">
+        <div class="brand-text">
+          <strong>디펜스카본</strong>
+          <span>Defense Carbon</span>
+        </div>
+      </a>
+
+      <nav class="gnb">
         <ul class="menu">
           <li><a href="about.html">회사소개</a></li>
           <li><a href="services.html">시험서비스</a></li>
@@ -20,50 +28,153 @@
           <li><a href="contact.html">문의하기</a></li>
         </ul>
       </nav>
+
+      <a href="contact.html" class="header-cta">상담 문의</a>
     </div>
   </header>
 
-  <section class="page-hero">
-    <div class="container">
-      <h2>의뢰절차</h2>
-      <p>시험 의뢰부터 결과 제공까지의 진행 절차 안내</p>
-    </div>
-  </section>
+  <main>
+    <section class="sub-hero">
+      <div class="container">
+        <p class="section-kicker">Procedure</p>
+        <h1 class="sub-hero-title">시험 의뢰부터 결과 제공까지의<br>진행 절차</h1>
+        <p class="sub-hero-desc">
+          상담, 시험 항목 협의, 견적, 시편 입고, 시험 수행, 결과 제공까지 단계별로 안내합니다.
+        </p>
+      </div>
+    </section>
 
-  <section class="section">
-    <div class="container">
-      <div class="step-list">
-        <div class="step-item">
-          <h3>01. 문의 및 상담</h3>
-          <p>시험 목적, 대상 재료, 요구 조건을 확인합니다.</p>
-        </div>
-        <div class="step-item">
-          <h3>02. 시험 항목 협의</h3>
-          <p>적합한 시험 규격과 조건을 협의합니다.</p>
-        </div>
-        <div class="step-item">
-          <h3>03. 견적 및 접수</h3>
-          <p>시험 수량과 조건을 반영해 견적을 안내하고 의뢰를 접수합니다.</p>
-        </div>
-        <div class="step-item">
-          <h3>04. 시편 입고 및 시험 진행</h3>
-          <p>시편 확인 후 일정에 따라 시험을 수행합니다.</p>
-        </div>
-        <div class="step-item">
-          <h3>05. 결과 정리 및 보고</h3>
-          <p>시험 결과와 필요 시 raw data 및 보고 자료를 제공합니다.</p>
+    <section class="section">
+      <div class="container">
+        <div class="procedure-timeline">
+          <div class="timeline-item">
+            <div class="timeline-no">01</div>
+            <div class="timeline-body">
+              <h3>문의 및 상담</h3>
+              <p>시험 목적, 대상 재료, 시편 수량, 요구 조건을 확인합니다.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-no">02</div>
+            <div class="timeline-body">
+              <h3>시험 항목 및 조건 협의</h3>
+              <p>적합한 시험 규격, 시험 온도, 측정 항목, 보고 방식 등을 협의합니다.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-no">03</div>
+            <div class="timeline-body">
+              <h3>견적 및 의뢰 접수</h3>
+              <p>협의된 조건을 바탕으로 견적을 안내하고 의뢰를 접수합니다.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-no">04</div>
+            <div class="timeline-body">
+              <h3>시편 입고 및 확인</h3>
+              <p>시편 상태, 수량, 치수 등을 확인한 후 시험 준비를 진행합니다.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-no">05</div>
+            <div class="timeline-body">
+              <h3>시험 수행</h3>
+              <p>협의된 조건에 따라 시험을 수행하고 필요한 데이터를 확보합니다.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-no">06</div>
+            <div class="timeline-body">
+              <h3>결과 정리 및 제공</h3>
+              <p>시험 결과 요약, 보고자료 및 필요 시 raw data를 제공합니다.</p>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
+
+    <section class="section soft-bg">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="section-kicker">Guide</p>
+            <h2 class="section-title">의뢰 시 참고사항</h2>
+          </div>
+        </div>
+
+        <div class="info-grid">
+          <div class="info-card">
+            <h3>시편 정보</h3>
+            <p>재료 종류, 적층 정보, 치수, 수량 등 기본 정보를 함께 전달해 주세요.</p>
+          </div>
+          <div class="info-card">
+            <h3>시험 목적</h3>
+            <p>개발용, 비교평가, 품질확인 등 시험 목적을 알려주시면 조건 협의에 도움이 됩니다.</p>
+          </div>
+          <div class="info-card">
+            <h3>특수 조건</h3>
+            <p>고온, 습윤, 특정 지그, 보고서 양식 등 요구사항이 있으면 사전에 알려주세요.</p>
+          </div>
+          <div class="info-card">
+            <h3>결과 자료</h3>
+            <p>요약 결과, 보고서, raw data 제공 범위는 의뢰 전 협의 가능합니다.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-banner">
+      <div class="container cta-banner-inner">
+        <div>
+          <p class="section-kicker light">Support</p>
+          <h2>시험 의뢰 전 상담이 필요하신가요?</h2>
+          <p>시편 정보와 목적을 알려주시면 적절한 시험 항목과 절차를 안내해드립니다.</p>
+        </div>
+        <a href="contact.html" class="btn btn-white">상담 문의</a>
+      </div>
+    </section>
+  </main>
 
   <footer class="footer">
-    <div class="container footer-inner">
-      <div>
-        <strong>디펜스카본</strong>
-        <p>복합재 시험·분석 전문기관</p>
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="brand footer-brand-link">
+          <img src="images/logo.png" alt="디펜스카본 로고" class="brand-logo">
+          <div class="brand-text">
+            <strong>디펜스카본</strong>
+            <span>Defense Carbon</span>
+          </div>
+        </a>
+        <p class="footer-desc">복합재 및 첨단소재 분야의 시험·분석 전문기관</p>
       </div>
-      <p>© 2026 디펜스카본. All rights reserved.</p>
+
+      <div class="footer-col">
+        <h3>바로가기</h3>
+        <ul>
+          <li><a href="about.html">회사소개</a></li>
+          <li><a href="services.html">시험서비스</a></li>
+          <li><a href="rnd.html">연구개발</a></li>
+          <li><a href="contact.html">문의하기</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h3>문의</h3>
+        <ul>
+          <li>전화: 042-000-0000</li>
+          <li>이메일: example@defensecarbon.com</li>
+          <li>주소: 대전광역시 ○○구 ○○로 00</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <p>© 2026 Defense Carbon. All rights reserved.</p>
     </div>
   </footer>
 

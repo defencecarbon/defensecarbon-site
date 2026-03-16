@@ -4,14 +4,22 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>문의하기 | 디펜스카본</title>
+  <meta name="description" content="디펜스카본 시험 의뢰 및 기술 상담 문의">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
   <header class="header">
     <div class="container nav">
-      <h1 class="logo"><a href="index.html">디펜스카본</a></h1>
-      <nav>
+      <a href="index.html" class="brand">
+        <img src="images/logo.png" alt="디펜스카본 로고" class="brand-logo">
+        <div class="brand-text">
+          <strong>디펜스카본</strong>
+          <span>Defense Carbon</span>
+        </div>
+      </a>
+
+      <nav class="gnb">
         <ul class="menu">
           <li><a href="about.html">회사소개</a></li>
           <li><a href="services.html">시험서비스</a></li>
@@ -20,42 +28,127 @@
           <li><a href="contact.html">문의하기</a></li>
         </ul>
       </nav>
+
+      <a href="contact.html" class="header-cta">상담 문의</a>
     </div>
   </header>
 
-  <section class="page-hero">
-    <div class="container">
-      <h2>문의하기</h2>
-      <p>시험 의뢰 및 기술 상담 문의</p>
-    </div>
-  </section>
+  <main>
+    <section class="sub-hero">
+      <div class="container">
+        <p class="section-kicker">Contact</p>
+        <h1 class="sub-hero-title">시험 의뢰 및 기술 상담 문의</h1>
+        <p class="sub-hero-desc">
+          시험 목적, 재료 종류, 수량, 요구 조건 등을 알려주시면 적합한 시험 방향을 안내해드립니다.
+        </p>
+      </div>
+    </section>
 
-  <section class="section">
-    <div class="container">
-      <div class="contact-grid">
-        <div class="contact-card">
-          <h3>전화</h3>
-          <p>실제 전화번호 입력</p>
+    <section class="section">
+      <div class="container contact-layout">
+        <div>
+          <p class="section-kicker">Get in Touch</p>
+          <h2 class="section-title">문의 정보</h2>
+          <div class="contact-info-list">
+            <div class="contact-info-card">
+              <h3>전화</h3>
+              <p>042-000-0000</p>
+            </div>
+            <div class="contact-info-card">
+              <h3>이메일</h3>
+              <p>example@defensecarbon.com</p>
+            </div>
+            <div class="contact-info-card">
+              <h3>주소</h3>
+              <p>대전광역시 ○○구 ○○로 00</p>
+            </div>
+          </div>
         </div>
-        <div class="contact-card">
-          <h3>이메일</h3>
-          <p>실제 이메일 입력</p>
-        </div>
-        <div class="contact-card">
-          <h3>주소</h3>
-          <p>실제 주소 입력</p>
+
+        <div class="contact-form-card">
+          <h3>문의 내용 예시</h3>
+          <p class="form-guide">
+            아래 항목을 정리해서 이메일 또는 전화로 문의하시면 상담이 더 빨라집니다.
+          </p>
+
+          <ul class="check-list">
+            <li>재료명 및 제품 정보</li>
+            <li>시험 목적 및 희망 항목</li>
+            <li>시편 수량 및 예상 일정</li>
+            <li>특수 조건 여부(고온, 습윤 등)</li>
+            <li>결과자료 요구사항</li>
+          </ul>
+
+          <a href="procedure.html" class="btn btn-primary">의뢰 절차 보기</a>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
+
+    <section class="section soft-bg">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="section-kicker">Consulting Area</p>
+            <h2 class="section-title">상담 가능 분야</h2>
+          </div>
+        </div>
+
+        <div class="service-grid">
+          <article class="service-card">
+            <div class="service-icon">01</div>
+            <h3>시험 항목 상담</h3>
+            <p>목적에 맞는 시험 조합과 규격을 함께 검토합니다.</p>
+          </article>
+          <article class="service-card">
+            <div class="service-icon">02</div>
+            <h3>시편 조건 확인</h3>
+            <p>시편 크기, 수량, 상태에 따른 시험 가능 여부를 안내합니다.</p>
+          </article>
+          <article class="service-card">
+            <div class="service-icon">03</div>
+            <h3>특수 조건 협의</h3>
+            <p>고온, 환경 조건, 맞춤형 지그 등 특수 요구조건을 협의합니다.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
 
   <footer class="footer">
-    <div class="container footer-inner">
-      <div>
-        <strong>디펜스카본</strong>
-        <p>복합재 시험·분석 전문기관</p>
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="brand footer-brand-link">
+          <img src="images/logo.png" alt="디펜스카본 로고" class="brand-logo">
+          <div class="brand-text">
+            <strong>디펜스카본</strong>
+            <span>Defense Carbon</span>
+          </div>
+        </a>
+        <p class="footer-desc">복합재 및 첨단소재 분야의 시험·분석 전문기관</p>
       </div>
-      <p>© 2026 디펜스카본. All rights reserved.</p>
+
+      <div class="footer-col">
+        <h3>바로가기</h3>
+        <ul>
+          <li><a href="about.html">회사소개</a></li>
+          <li><a href="services.html">시험서비스</a></li>
+          <li><a href="rnd.html">연구개발</a></li>
+          <li><a href="procedure.html">의뢰절차</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h3>문의</h3>
+        <ul>
+          <li>전화: 042-000-0000</li>
+          <li>이메일: example@defensecarbon.com</li>
+          <li>주소: 대전광역시 ○○구 ○○로 00</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <p>© 2026 Defense Carbon. All rights reserved.</p>
     </div>
   </footer>
 
