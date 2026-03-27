@@ -1,293 +1,177 @@
-<!DOCTYPE html>
-<html lang="ko">
-<head>
+<!DOCTYPE html><html lang="ko"><head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>디펜스카본 | 복합재 시험·분석 전문기관</title>
-  <meta name="description" content="디펜스카본은 복합재 및 첨단소재 분야의 시험·분석, 고온 물성평가, 현미경 분석, 맞춤형 기술지원을 제공합니다.">
+  <meta name="description" content="디펜스카본 공식 홈페이지">
+  <meta name="theme-color" content="#0f3d7a">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Defense Carbon">
+  <meta property="og:title" content="디펜스카본 | 복합재 시험·분석 전문기관">
+  <meta property="og:description" content="디펜스카본 공식 홈페이지">
+  <meta property="og:image" content="images/hero-main.svg">
   <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
+  <script defer src="script.js"></script>
+</head><body data-page="home"><a href="#main-content" class="skip-link">본문 바로가기</a>
+  <div class="utility">
+    <div class="container utility-inner">
+      <div class="utility-links">
+        <a href="services.html">시험서비스</a>
+        <a href="procedure.html">의뢰절차</a>
+        <a href="contact.html">문의하기</a>
+      </div>
+      <div class="utility-right">
+        <span>복합재 · 고온 · 현미경 · 기술지원</span>
+      </div>
+    </div>
+  </div>
   <header class="header">
     <div class="container nav">
-      <a href="index.html" class="brand">
+      <a href="index.html" class="brand" aria-label="디펜스카본 홈으로 이동">
         <img src="images/logo.png" alt="디펜스카본 로고" class="brand-logo">
         <div class="brand-text">
           <strong>디펜스카본</strong>
           <span>Defense Carbon</span>
         </div>
       </a>
-
-      <nav class="gnb">
+      <button class="nav-toggle" type="button" aria-label="메뉴 열기" aria-expanded="false"><span class="bar"></span><span class="bar"></span><span class="bar"></span></button>
+      <nav class="main-nav" aria-label="주 메뉴">
         <ul class="menu">
-          <li><a href="about.html">회사소개</a></li>
-          <li><a href="services.html">시험서비스</a></li>
-          <li><a href="rnd.html">연구개발</a></li>
-          <li><a href="procedure.html">의뢰절차</a></li>
-          <li><a href="contact.html">문의하기</a></li>
+          <li><a href="about.html" data-page="about">회사소개</a></li>
+          <li><a href="services.html" data-page="services">시험서비스</a></li>
+          <li><a href="fields.html" data-page="fields">적용분야</a></li>
+          <li><a href="procedure.html" data-page="procedure">의뢰절차</a></li>
+          <li><a href="contact.html" data-page="contact">문의하기</a></li>
         </ul>
       </nav>
-
-      <a href="contact.html" class="header-cta">상담 문의</a>
+      <div class="header-actions"><a href="contact.html" class="btn btn-primary">상담문의</a></div>
     </div>
   </header>
-
-  <main>
+  <main id="main-content">
     <section class="hero">
       <div class="container hero-grid">
         <div class="hero-copy">
-          <p class="eyebrow">Advanced Composite Testing & Analysis</p>
-          <h1>
-            복합재 및 첨단소재 분야의<br>
-            신뢰성 있는 시험·분석 서비스를 제공합니다
-          </h1>
-          <p class="hero-desc">
-            디펜스카본은 복합재 구조재, 탄소소재, 고온 환경용 재료 분야를 중심으로
-            기계적 물성평가, 현미경 분석, 맞춤형 시험 설계 및 기술지원을 제공합니다.
-          </p>
-
+          <span class="kicker light">Composite Materials Testing</span>
+          <h1>복합재 및 첨단소재 분야의<br>시험·분석 전문기관</h1>
+          <p>기계적 물성평가, 고온 환경 시험, 현미경 분석, 복합재 특성평가, 기술지원을 제공합니다.</p>
           <div class="hero-actions">
-            <a href="services.html" class="btn btn-primary">시험서비스 보기</a>
-            <a href="procedure.html" class="btn btn-secondary">의뢰 절차 안내</a>
+            <a href="services.html" class="btn btn-white">시험서비스 보기</a>
+            <a href="contact.html" class="btn btn-secondary">문의하기</a>
           </div>
-
-          <div class="hero-metrics">
-            <div class="metric-card">
-              <strong>Mechanical</strong>
-              <span>인장 · 압축 · 전단 · 굽힘</span>
-            </div>
-            <div class="metric-card">
-              <strong>High Temperature</strong>
-              <span>고온 물성 및 특수 환경 평가</span>
-            </div>
-            <div class="metric-card">
-              <strong>Microscopy</strong>
-              <span>미세구조 · 파손면 · 결함 분석</span>
-            </div>
+          <div class="hero-points">
+            <div class="hero-point"><strong>Mechanical</strong><span>인장 · 압축 · 전단 · 굽힘 · ILSS</span></div>
+            <div class="hero-point"><strong>Thermal</strong><span>고온 환경 조건 평가</span></div>
+            <div class="hero-point"><strong>Analysis</strong><span>현미경 분석 · 결과 해석</span></div>
           </div>
         </div>
+        <div class="hero-visual">
+          <img src="images/hero-main.svg" alt="복합재 시험분석 디펜스카본 메인 비주얼">
+          <div class="hero-overlay"><h2>신뢰성 있는 시험평가와 기술지원</h2><p>제품 검증, 연구개발, 맞춤형 시험 계획 수립까지 대응합니다.</p></div>
+        </div>
+      </div>
+    </section>
 
-        <div class="hero-panel">
-          <div class="hero-card hero-card-main">
-            <p class="hero-card-label">Core Service</p>
-            <h2>복합재 시험평가 전문</h2>
-            <p>
-              표준 규격 기반의 시험 수행부터 고객 요구조건에 맞춘
-              특수 시험 설계까지 지원합니다.
-            </p>
+    <section class="notice-band">
+      <div class="container notice-panel">
+        <div class="notice-main">
+          <div class="notice-title"><h3>공지사항</h3><a href="contact.html" class="text-link">문의하기</a></div>
+          <div class="notice-list">
+            <div class="notice-item"><a href="#">복합재 시험 및 기술 상담 상시 접수</a><span>Defense Carbon</span></div>
+            <div class="notice-item"><a href="#">고온 환경 시험 및 맞춤형 조건 협의 가능</a><span>Defense Carbon</span></div>
+            <div class="notice-item"><a href="#">시험 결과 보고서 및 raw data 제공</a><span>Defense Carbon</span></div>
           </div>
-
-          <div class="hero-card-grid">
-            <div class="hero-card small">
-              <h3>시험 항목</h3>
-              <p>기계적 물성시험 / 고온시험 / 현미경 분석</p>
-            </div>
-            <div class="hero-card small">
-              <h3>기술 지원</h3>
-              <p>시험 조건 협의, 결과 해석, 맞춤형 평가 대응</p>
-            </div>
+        </div>
+        <div class="notice-side">
+          <div class="notice-title"><h3>주요 메뉴</h3></div>
+          <div class="quick-links">
+            <div class="quick-link-row"><a href="services.html">시험서비스</a><span>Services</span></div>
+            <div class="quick-link-row"><a href="fields.html">적용분야</a><span>Industries</span></div>
+            <div class="quick-link-row"><a href="procedure.html">의뢰절차</a><span>Procedure</span></div>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="section intro-strip">
-      <div class="container intro-strip-grid">
-        <div class="intro-box">
-          <span>Specialty 01</span>
-          <strong>복합재 구조재 평가</strong>
-          <p>복합재 구조재 및 첨단소재 중심의 시험 경험과 기술력</p>
-        </div>
-        <div class="intro-box">
-          <span>Specialty 02</span>
-          <strong>고온 환경 시험 대응</strong>
-          <p>고온 조건에서의 기계적 특성 및 재료 안정성 평가</p>
-        </div>
-        <div class="intro-box">
-          <span>Specialty 03</span>
-          <strong>맞춤형 시험 설계</strong>
-          <p>고객 제품, 연구 목적, 규격 요구조건에 맞춘 평가 지원</p>
-        </div>
-      </div>
-    </section>
-
-    <section class="section services-preview">
+    <section class="section">
       <div class="container">
-        <div class="section-head">
-          <div>
-            <p class="section-kicker">Our Services</p>
-            <h2 class="section-title">주요 시험서비스</h2>
-          </div>
-          <a href="services.html" class="text-link">전체 서비스 보기</a>
-        </div>
-
-        <div class="service-grid">
-          <article class="service-card">
-            <div class="service-icon">01</div>
-            <h3>기계적 물성시험</h3>
-            <p>인장, 압축, 전단, 굽힘 등 구조재 및 복합재의 기계적 특성을 평가합니다.</p>
-          </article>
-
-          <article class="service-card">
-            <div class="service-icon">02</div>
-            <h3>고온 물성시험</h3>
-            <p>고온 환경에서의 강도, 탄성률, 구조 안정성 및 거동 특성을 평가합니다.</p>
-          </article>
-
-          <article class="service-card">
-            <div class="service-icon">03</div>
-            <h3>현미경 분석</h3>
-            <p>미세구조, 파손면, 결함 상태를 광학/전자현미경 기반으로 관찰합니다.</p>
-          </article>
-
-          <article class="service-card">
-            <div class="service-icon">04</div>
-            <h3>복합재 특성평가</h3>
-            <p>밀도, 공극률, 섬유 체적분율 등 복합재 건전성과 구조 특성을 분석합니다.</p>
-          </article>
-
-          <article class="service-card">
-            <div class="service-icon">05</div>
-            <h3>시편 제작 및 준비</h3>
-            <p>시험 규격 및 목적에 맞는 시편 절단, 탭 부착, 사전 준비를 지원합니다.</p>
-          </article>
-
-          <article class="service-card">
-            <div class="service-icon">06</div>
-            <h3>맞춤형 특수시험</h3>
-            <p>고객 요구조건과 사용 환경에 맞춘 특수 시험 및 기술 대응을 제공합니다.</p>
-          </article>
+        <div class="section-head"><div><span class="kicker">Services</span><h2 class="section-title">주요 시험서비스</h2></div><a href="services.html" class="text-link">전체 서비스 보기</a></div>
+        <div class="grid-3">
+          <article class="service-card"><img src="images/service-composite.svg" alt="기계적 물성시험"><span class="badge">Mechanical</span><h3>기계적 물성시험</h3><p>복합재 구조재의 인장, 압축, 전단, 굽힘, 층간전단 등 기계적 특성을 평가합니다.</p></article>
+          <article class="service-card"><img src="images/service-analysis.svg" alt="현미경 및 파손 분석"><span class="badge">Microscopy</span><h3>현미경 및 파손 분석</h3><p>파손면, 미세구조, 결함 상태를 관찰하고 시험 결과와 함께 분석합니다.</p></article>
+          <article class="service-card"><img src="images/service-procedure.svg" alt="고온 및 특수 조건 시험"><span class="badge">High Temperature</span><h3>고온 및 특수 조건 시험</h3><p>고온 환경 조건과 맞춤형 시험 요구사항에 맞춰 평가를 수행합니다.</p></article>
         </div>
       </div>
     </section>
 
-    <section class="section about-preview">
-      <div class="container about-grid">
-        <div class="about-copy">
-          <p class="section-kicker">About Defense Carbon</p>
-          <h2 class="section-title">복합재 및 첨단소재 분야의 시험·분석 파트너</h2>
-          <p class="section-desc">
-            디펜스카본은 복합재와 구조재를 중심으로 시험평가, 기술지원,
-            맞춤형 분석 서비스를 제공하는 전문 기관입니다.
-            표준 기반의 정확한 시험 수행과 고객 요구를 반영한 유연한 대응을 지향합니다.
-          </p>
-
-          <ul class="check-list">
-            <li>복합재 및 구조재 중심 시험평가 경험</li>
-            <li>고온 및 특수 환경 대응 시험 지원</li>
-            <li>시험 계획 수립부터 결과 해석까지 기술 지원</li>
-          </ul>
-
-          <a href="about.html" class="btn btn-primary">회사소개 보기</a>
-        </div>
-
-        <div class="about-side-cards">
-          <div class="info-card">
-            <h3>전문성</h3>
-            <p>축적된 시험 경험과 기술 기반으로 복합재 중심 서비스를 제공합니다.</p>
-          </div>
-          <div class="info-card">
-            <h3>정확성</h3>
-            <p>표준 규격과 고객 요구조건에 맞춘 정밀하고 신뢰성 있는 결과를 제공합니다.</p>
-          </div>
-          <div class="info-card">
-            <h3>협업성</h3>
-            <p>연구개발 목적과 제품 특성에 맞춘 맞춤형 시험 계획을 함께 설계합니다.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section process-preview">
-      <div class="container">
-        <div class="section-head">
-          <div>
-            <p class="section-kicker">Procedure</p>
-            <h2 class="section-title">시험 의뢰 절차</h2>
-          </div>
-          <a href="procedure.html" class="text-link">절차 전체 보기</a>
-        </div>
-
-        <div class="process-grid">
-          <div class="process-step">
-            <span>01</span>
-            <h3>문의 및 상담</h3>
-            <p>시험 목적, 시편 정보, 요구 조건을 확인합니다.</p>
-          </div>
-          <div class="process-step">
-            <span>02</span>
-            <h3>시험 항목 협의</h3>
-            <p>적합한 시험 규격 및 조건을 함께 검토합니다.</p>
-          </div>
-          <div class="process-step">
-            <span>03</span>
-            <h3>견적 및 접수</h3>
-            <p>시험 수량, 일정, 요구사항을 반영해 접수합니다.</p>
-          </div>
-          <div class="process-step">
-            <span>04</span>
-            <h3>시험 수행 및 결과 제공</h3>
-            <p>시험 완료 후 결과자료와 필요 시 raw data를 제공합니다.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="cta-banner">
-      <div class="container cta-banner-inner">
+    <section class="section soft-bg">
+      <div class="container split">
         <div>
-          <p class="section-kicker light">Contact</p>
-          <h2>시험 의뢰 또는 기술 상담이 필요하신가요?</h2>
-          <p>
-            디펜스카본은 고객 요구에 맞는 시험 항목과 절차를 함께 검토하여
-            적합한 평가 방안을 안내합니다.
-          </p>
+          <span class="kicker">Defense Carbon</span>
+          <h2 class="section-title">복합재 시험평가와 기술지원</h2>
+          <p class="section-desc">연구개발 단계의 평가부터 제품 검증을 위한 시험까지, 고객 목적에 맞는 시험 항목과 절차를 안내합니다.</p>
+          <ul class="check-list">
+            <li>복합재 구조재 중심 시험평가</li>
+            <li>고온 및 특수 환경 조건 대응</li>
+            <li>결과 보고서 및 raw data 제공</li>
+            <li>시험 결과 해석 및 기술지원</li>
+          </ul>
         </div>
-        <a href="contact.html" class="btn btn-white">문의하기</a>
+        <div class="grid-2">
+          <div class="feature-card"><span class="badge">Process</span><h3>의뢰 전 상담</h3><p>재료명, 시편 정보, 수량, 목적, 일정, 특수 조건을 확인한 뒤 시험 항목을 협의합니다.</p></div>
+          <div class="feature-card"><span class="badge">Output</span><h3>결과자료 제공</h3><p>시험 결과표, 그래프, raw data, 관찰 이미지, 필요 시 기술 코멘트를 제공합니다.</p></div>
+          <div class="feature-card"><span class="badge">Support</span><h3>맞춤형 평가</h3><p>연구개발 목적과 제품 특성에 맞춘 맞춤형 시험 계획 수립을 지원합니다.</p></div>
+          <div class="feature-card"><span class="badge">Application</span><h3>적용 분야</h3><p>국방, 항공우주, 모빌리티, 에너지, 산업 소재 분야의 시험 요구에 대응합니다.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-head"><div><span class="kicker">Partners</span><h2 class="section-title">협력업체</h2></div></div>
+        <div class="partner-strip">
+          <div class="partner-card"><img src="images/hyundai.svg" alt="현대자동차"></div>
+          <div class="partner-card"><img src="images/hanwha.svg" alt="한화"></div>
+          <div class="partner-card"><img src="images/add.svg" alt="국방과학연구소"></div>
+          <div class="partner-card"><img src="images/spacepro.svg" alt="SpacePro"></div>
+          <div class="partner-card"><img src="images/hcarbon.svg" alt="한국카본"></div>
+          <div class="partner-card"><img src="images/kolon.svg" alt="코오롱"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-band">
+      <div class="container cta-band-inner">
+        <div><span class="kicker light">Contact</span><h2>시험 의뢰 및 기술 상담 문의</h2><p>시험 목적과 재료 정보를 알려주시면 적합한 시험 항목과 절차를 안내해드립니다.</p></div>
+        <a href="contact.html" class="btn btn-white">상담문의</a>
       </div>
     </section>
   </main>
-
   <footer class="footer">
     <div class="container footer-grid">
-      <div class="footer-brand">
-        <a href="index.html" class="brand footer-brand-link">
+      <div>
+        <a href="index.html" class="brand">
           <img src="images/logo.png" alt="디펜스카본 로고" class="brand-logo">
-          <div class="brand-text">
-            <strong>디펜스카본</strong>
-            <span>Defense Carbon</span>
-          </div>
+          <div class="brand-text"><strong>디펜스카본</strong><span>Defense Carbon</span></div>
         </a>
-        <p class="footer-desc">
-          복합재 및 첨단소재 분야의 시험·분석 전문기관
-        </p>
+        <p>복합재 및 첨단소재 분야의 시험·분석 전문기관</p>
       </div>
-
       <div class="footer-col">
         <h3>바로가기</h3>
         <ul>
           <li><a href="about.html">회사소개</a></li>
           <li><a href="services.html">시험서비스</a></li>
-          <li><a href="rnd.html">연구개발</a></li>
+          <li><a href="fields.html">적용분야</a></li>
           <li><a href="procedure.html">의뢰절차</a></li>
+          <li><a href="contact.html">문의하기</a></li>
         </ul>
       </div>
-
       <div class="footer-col">
         <h3>문의</h3>
         <ul>
-          <li>전화: 042-821-1470</li>
-          <li>이메일: example@defensecarbon.com</li>
-          <li>주소: 대전광역시 유성구 동서대로 125</li>
+          <li><a href="tel:0428211470">전화: 042-821-1470</a></li>
+          <li><a href="mailto:shin955@hanbat.ac.kr">이메일: shin955@hanbat.ac.kr</a></li>
+          <li>주소: 대전광역시 유성구 동서대로 125 N7동 605호</li>
         </ul>
       </div>
     </div>
-
-    <div class="container footer-bottom">
-      <p>© 2026 Defense Carbon. All rights reserved.</p>
-    </div>
-  </footer>
-
-</body>
-</html>
+    <div class="container footer-bottom"><p>© <span data-current-year></span> Defense Carbon. All rights reserved.</p></div>
+  </footer></body></html>
