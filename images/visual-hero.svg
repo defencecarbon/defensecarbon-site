@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="920" viewBox="0 0 1100 920" role="img" aria-label="항공우주 방산 복합재 시험분석 그래픽">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#071a34"/><stop offset="0.55" stop-color="#0b3568"/><stop offset="1" stop-color="#020814"/></linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#122949"/><stop offset="1" stop-color="#061020"/></linearGradient>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#29d7ff"/><stop offset="1" stop-color="#0a68d8"/></linearGradient>
+    <linearGradient id="metal" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#617890"/><stop offset="0.28" stop-color="#e7f4ff"/><stop offset="0.55" stop-color="#889bb0"/><stop offset="1" stop-color="#f6fbff"/></linearGradient>
+    <linearGradient id="heat" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff3b0"/><stop offset="0.55" stop-color="#ff9d36"/><stop offset="1" stop-color="#ff5524"/></linearGradient>
+    <pattern id="grid" width="46" height="46" patternUnits="userSpaceOnUse"><path d="M46 0H0v46" fill="none" stroke="#7ec9ff" stroke-opacity=".14" stroke-width="1"/></pattern>
+    <pattern id="carbon" width="20" height="20" patternUnits="userSpaceOnUse" patternTransform="rotate(35)"><rect width="10" height="20" fill="#0d1725"/><rect x="10" width="10" height="20" fill="#18304c"/></pattern>
+    <filter id="shadow" x="-25%" y="-25%" width="150%" height="150%"><feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#000" flood-opacity=".34"/></filter>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="8" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+
+  <rect width="1100" height="920" rx="38" fill="url(#bg)"/>
+  <rect width="1100" height="920" rx="38" fill="url(#grid)"/>
+  <circle cx="940" cy="115" r="120" fill="#1b75d0" opacity=".18"/>
+  <circle cx="155" cy="790" r="170" fill="#22d2ff" opacity=".09"/>
+
+  <g transform="translate(58 62)">
+    <text x="0" y="0" dy="1em" font-family="Arial, sans-serif" font-size="24" font-weight="900" letter-spacing="3" fill="#ffffff">AEROSPACE · DEFENCE</text>
+    <text x="0" y="42" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#9feaff">composite material testing &amp; analysis</text>
+  </g>
+
+  <!-- aerospace silhouette -->
+  <g transform="translate(550 120)" filter="url(#shadow)">
+    <path d="M256 0l254 88-122 39 110 82-168-19-79 126-37-146-193-28 165-53z" fill="url(#metal)" stroke="#e9f7ff" stroke-width="5"/>
+    <path d="M214 85l174 42" stroke="#15395d" stroke-width="8" opacity=".42"/>
+    <path d="M329 188l59-61" stroke="#15395d" stroke-width="8" opacity=".38"/>
+  </g>
+
+  <!-- testing frame -->
+  <g transform="translate(74 184)" filter="url(#shadow)">
+    <rect x="0" y="0" width="260" height="456" rx="28" fill="#07111f" stroke="#48d1ff" stroke-opacity=".42" stroke-width="3"/>
+    <rect x="44" y="38" width="172" height="35" rx="9" fill="url(#blue)"/>
+    <rect x="97" y="96" width="62" height="252" rx="20" fill="#d8eafe"/>
+    <rect x="117" y="124" width="22" height="196" rx="10" fill="#08284a"/>
+    <rect x="38" y="374" width="184" height="36" rx="10" fill="#66839e"/>
+    <line x1="0" y1="128" x2="260" y2="128" stroke="#1d5b91" stroke-width="2" opacity=".45"/>
+    <line x1="0" y1="328" x2="260" y2="328" stroke="#1d5b91" stroke-width="2" opacity=".45"/>
+  </g>
+
+  <!-- carbon pressure vessel / structure -->
+  <g transform="translate(332 438)" filter="url(#shadow)">
+    <path d="M0 124c94-48 220-91 364-128 44-11 84 2 113 36l120 142c17 21 8 53-18 62-160 54-332 79-501 72-67-3-104-32-114-84-8-43 4-75 36-100z" fill="url(#carbon)" stroke="#e2f7ff" stroke-width="5"/>
+    <path d="M66 166c135-16 276-52 424-108" fill="none" stroke="#f4fbff" stroke-opacity=".65" stroke-width="5"/>
+    <path d="M112 226c122-7 255-29 396-67" fill="none" stroke="#f4fbff" stroke-opacity=".34" stroke-width="4"/>
+    <ellipse cx="110" cy="226" rx="78" ry="50" fill="none" stroke="#28d7ff" stroke-opacity=".18" stroke-width="12"/>
+  </g>
+
+  <!-- high-temp test furnace block -->
+  <g transform="translate(676 492)" filter="url(#shadow)">
+    <rect x="0" y="0" width="228" height="178" rx="26" fill="url(#panel)" stroke="#57d6ff" stroke-opacity=".46"/>
+    <rect x="72" y="28" width="84" height="122" rx="12" fill="#fbf1d8" opacity=".95"/>
+    <rect x="88" y="42" width="52" height="94" rx="8" fill="url(#heat)" filter="url(#glow)"/>
+    <path d="M114 12v150" stroke="#e5f4ff" stroke-width="9" stroke-linecap="round"/>
+    <path d="M42 88h52M134 88h52" stroke="#e5f4ff" stroke-width="8" stroke-linecap="round"/>
+  </g>
+
+  <!-- data panel -->
+  <g transform="translate(640 700)">
+    <rect x="0" y="0" width="384" height="108" rx="23" fill="#061020" stroke="#48d1ff" stroke-opacity=".62"/>
+    <polyline points="34,70 78,42 121,60 170,29 219,72 274,38 335,62" fill="none" stroke="#27d5ff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="34" y="91" font-family="Arial, sans-serif" font-size="15" font-weight="900" fill="#cdf5ff">STRUCTURAL TEST DATA</text>
+  </g>
+</svg>
