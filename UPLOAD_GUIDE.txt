@@ -1,0 +1,25 @@
+업로드 방법 안내
+
+이번 버전은 .html 파일 구조입니다.
+주소창에 index.html, about.html 등이 보여도 정상입니다.
+
+업로드할 때는 ZIP 파일 자체를 올리지 말고, 압축을 푼 뒤 아래 파일/폴더 전체를 GitHub 저장소에 업로드하세요.
+
+index.html
+about.html
+services.html
+fields.html
+procedure.html
+contact.html
+style.css
+script.js
+images/
+404.html
+
+업로드 후 브라우저에서 Ctrl+F5로 강력 새로고침하세요.
+
+이번 수정 포인트
+- 메인 첫 화면 문구를 "디펜스카본 / 복합재 물성평가 전문업체" 구조로 변경
+- 배경을 실제 카본 직물에 가까운 다크 톤 텍스처 느낌으로 보강
+- 우측 비주얼을 시험분석 서비스 중심 레이아웃으로 정리
+- 전체 여백을 더 넓게 잡아 현대차그룹/기관형 톤에 가깝게 조정
