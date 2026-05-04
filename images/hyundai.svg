@@ -1,1 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 88" fill="none"><rect width="280" height="88" rx="18" fill="#fff" stroke="#D8E3EF"/><text x="140" y="54" text-anchor="middle" fill="#0A2850" font-family="Arial, Pretendard, sans-serif" font-size="28" font-weight="700">HYUNDAI</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 64" fill="none">
+  <ellipse cx="28" cy="32" rx="20" ry="14" stroke="#003B7A" stroke-width="3"/>
+  <path d="M18 23V41M38 23V41M18 31.8H38" stroke="#003B7A" stroke-width="3.2" stroke-linecap="round"/>
+  <text x="58" y="40" fill="#003B7A" font-family="Arial, Helvetica, sans-serif" font-size="23" font-style="italic" font-weight="700">HYUNDAI</text>
+</svg>

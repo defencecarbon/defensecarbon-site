@@ -1,1 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 88" fill="none"><rect width="280" height="88" rx="18" fill="#fff" stroke="#D8E3EF"/><text x="140" y="54" text-anchor="middle" fill="#0A2850" font-family="Arial, Pretendard, sans-serif" font-size="28" font-weight="700">국방과학연구소</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 64" fill="none">
+  <g transform="translate(10 10)">
+    <path d="M22 2L38 11V29L22 38L6 29V11L22 2Z" fill="#1A5FB4" fill-opacity="0.12" stroke="#1A5FB4" stroke-width="2.6"/>
+    <path d="M22 9V31M11 20H33" stroke="#1A5FB4" stroke-width="2.8" stroke-linecap="round"/>
+  </g>
+  <text x="58" y="40" fill="#0A3D91" font-family="Pretendard, Noto Sans KR, Arial, sans-serif" font-size="22" font-weight="700">국방과학연구소</text>
+</svg>

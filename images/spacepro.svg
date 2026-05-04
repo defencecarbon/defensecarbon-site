@@ -1,1 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 88" fill="none"><rect width="280" height="88" rx="18" fill="#fff" stroke="#D8E3EF"/><text x="140" y="54" text-anchor="middle" fill="#0A2850" font-family="Arial, Pretendard, sans-serif" font-size="28" font-weight="700">SpacePro</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 64" fill="none">
+  <g transform="translate(8 9)">
+    <path d="M16 28C16 13 25 4 39 4C35 7 33 12 33 16C33 28 26 36 12 40C14 36 16 32 16 28Z" fill="#1F3F8C"/>
+    <circle cx="34" cy="13" r="3" fill="#3CC7FF"/>
+  </g>
+  <text x="58" y="40" fill="#1F3F8C" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700">SpacePro</text>
+</svg>

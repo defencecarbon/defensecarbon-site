@@ -1,1 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 88" fill="none"><rect width="280" height="88" rx="18" fill="#fff" stroke="#D8E3EF"/><text x="140" y="54" text-anchor="middle" fill="#0A2850" font-family="Arial, Pretendard, sans-serif" font-size="28" font-weight="700">KOLON</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 64" fill="none">
+  <g transform="translate(10 10)">
+    <circle cx="12" cy="22" r="7" fill="#00A1E4"/>
+    <circle cx="24" cy="13" r="7" fill="#33B44A"/>
+    <circle cx="34" cy="26" r="7" fill="#ED3B3B"/>
+  </g>
+  <text x="58" y="40" fill="#1A1A1A" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700">KOLON</text>
+</svg>
